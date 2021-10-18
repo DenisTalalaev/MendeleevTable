@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #c9cfff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mendeleevtable.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Интерактивная таблица Менделеева" textFill="#2f00ff">
+      <font>
+         <Font name="Times New Roman" size="36.0" />
+      </font>
+   </Label>
+    <Button onAction="#toTableButton" prefHeight="70.0" prefWidth="429.0" style="-fx-background-color: #2d009e; -fx-text-fill: #FFFFFF;" text="Таблица Менделеева">
+      <font>
+         <Font name="Times New Roman" size="24.0" />
+      </font></Button>
+   <Button layoutX="157.0" layoutY="174.0" onAction="#toGameButton" prefHeight="70.0" prefWidth="426.0" style="-fx-background-color: #2d009e; -fx-text-fill: #FFFFFF;" text="Игра">
+      <font>
+         <Font name="Times New Roman" size="24.0" />
+      </font>
+   </Button>
+   <Label text="BSUIR 2021">
+      <font>
+         <Font size="8.0" />
+      </font>
+   </Label>
+</VBox>
